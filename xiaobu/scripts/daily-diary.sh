@@ -4,7 +4,7 @@
 # 每天晚上 9 点执行，创建当天的日记文件
 
 WORKSPACE="/Users/meikai/.openclaw/workspace"
-DIARY_DIR="$WORKSPACE/xiaobu 日记"
+DIARY_DIR="$WORKSPACE/xiaobu/日记"
 TODAY=$(date +%Y-%m-%d)
 WEEKDAY=$(date +%u)
 DIARY_FILE="$DIARY_DIR/$TODAY.md"
