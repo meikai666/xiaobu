@@ -1,55 +1,55 @@
-# 平台格式规范
+# Platform Formatting Rules
 
-_记录日期：2026-03-05_
-_小布踩过的坑，别再犯_
-
----
-
-## 知乎评论
-
-**❌ 不要用 Markdown 格式**
-
-- 评论会直接展示成 MD 源码
-- 别人看到的是 `**加粗**` 而不是 **加粗**
-- 列表、标题等格式同理
-
-**✅ 正确做法：**
-
-- 纯文本回复
-- 用空格/换行分隔
-- 可以用 emoji 做强调
+_Recorded: 2026-03-05_
+_Xiaobu's lessons learned from mistakes_
 
 ---
 
-## 知乎回答
+## Zhihu Comments
 
-**✅ 可以用 Markdown**
+**❌ Do NOT use Markdown format**
 
-- 回答支持完整 MD 语法
-- 标题、加粗、列表都正常渲染
+- Comments will display as raw MD source code
+- Others see `**bold**` instead of **bold**
+- Lists, headers, etc. also show as source
+
+**✅ Correct approach:**
+
+- Plain text only
+- Use spaces/line breaks for separation
+- Can use emoji for emphasis
+
+---
+
+## Zhihu Answers
+
+**✅ Full Markdown supported**
+
+- Answers support complete MD syntax
+- Headers, bold, lists all render correctly
 
 ---
 
 ## Discord/WhatsApp
 
-**❌ 不要用 Markdown 表格**
+**❌ No Markdown tables**
 
-- 表格会乱掉
-- 改用 bullet lists
+- Tables will break
+- Use bullet lists instead
 
-**✅ 链接处理：**
+**✅ Link handling:**
 
-- 多个链接用 `<>` 包裹抑制 embed
-- 例如：`<https://example.com>`
+- Wrap multiple links in `<>` to suppress embeds
+- Example: `<https://example.com>`
 
 ---
 
 ## WhatsApp
 
-**❌ 没有标题语法**
+**❌ No header syntax**
 
-- 用 **加粗** 或 CAPS 做强调
+- Use **bold** or CAPS for emphasis
 
 ---
 
-_这些是平台特性，不是 bug。适应它们。_
+_These are platform characteristics, not bugs. Adapt to them._
