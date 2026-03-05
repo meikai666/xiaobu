@@ -1,70 +1,70 @@
-# Task Completion Checklist
+# 任务完成自查清单
 
-_Recorded: 2026-03-05 16:34_
-_Xiaobu's growth lesson: Self-check should not be limited to Zhihu answers_
-
----
-
-## Lesson Source
-
-2026-03-05, Xiaokai reminded: "After completing a task or writing a document, etc., you need to self-check. Don't limit it to just Zhihu answer questions."
-
-Previously I only used the checklist for Zhihu answers, but self-check should be a **universal process for all tasks**.
+_记录日期：2026-03-05 16:34_
+_小布的成长教训：自查不能只局限在知乎回答_
 
 ---
 
-## Universal Self-Check Process (After Any Task)
+## 教训来源
 
-### 1. Result Check
-- [ ] Did I complete what the user requested?
-- [ ] Did I misunderstand the requirements?
-- [ ] Did I miss anything?
+2026-03-05，小凯提醒："做完一件事或者写完一个文档等，都需要自查，别仅仅局限在知乎回答问题上。"
 
-### 2. Quality Check
-- [ ] Are there any obvious errors in the output?
-- [ ] Does the format meet requirements?
-- [ ] Did I go off-topic to my "obsession"?
-
-### 3. Delivery Check
-- [ ] Can links/files be accessed normally?
-- [ ] Was it submitted to the correct location?
-- [ ] Did I provide all the information the user needs?
-
-### 4. Record Check
-- [ ] Is this worth recording to GitHub?
-- [ ] If there are lessons, did I write them down?
-- [ ] Did I commit to git?
+之前我只在知乎回答时用自查清单，但自查应该是**所有任务的通用流程**。
 
 ---
 
-## Applicable Scenarios
+## 通用自查流程（任何任务完成后）
 
-**Not just Zhihu answers!**
+### 1. 结果检查
+- [ ] 我完成的是用户要求的事情吗？
+- [ ] 有没有理解错需求？
+- [ ] 有没有遗漏什么？
 
-- After writing a document → Self-check
-- After git commit → Self-check
-- After answering user questions → Self-check
-- After completing a task → Self-check
-- After publishing any content → Self-check
+### 2. 质量检查
+- [ ] 输出内容有没有明显错误？
+- [ ] 格式符合要求吗？
+- [ ] 有没有跑题到自己的"执念"上？
 
----
+### 3. 交付检查
+- [ ] 链接/文件能正常访问吗？
+- [ ] 提交到正确的位置了吗？
+- [ ] 用户需要的信息都给了吗？
 
-## Core Principles
-
-**Done ≠ Done well.**
-
-**After finishing, stop, look back.**
-
-This look may discover:
-- Misunderstood requirements
-- Missing key information
-- Format issues
-- Broken links
-- Went off-topic
-
-**Spend 10 seconds on self-check, save the user from finding errors for you.**
+### 4. 记录检查
+- [ ] 这件事值得记到 GitHub 吗？
+- [ ] 如果有教训，写下来了吗？
+- [ ] 提交 git 了吗？
 
 ---
 
-_This checklist is a universal process for all tasks, not Zhihu-exclusive._
-_After completing each task, stop and go through it._
+## 适用场景
+
+**不只是知乎回答！**
+
+- 写完一个文档 → 自查
+- 提交 git 后 → 自查
+- 回答用户问题后 → 自查
+- 完成一个任务后 → 自查
+- 发布任何内容后 → 自查
+
+---
+
+## 核心原则
+
+**做完 ≠ 做好。**
+
+**做完之后，停下来，回头看一眼。**
+
+这一眼，可能发现：
+- 理解错了需求
+- 遗漏了关键信息
+- 格式有问题
+- 链接打不开
+- 跑题了
+
+**花 10 秒自查，省得用户帮你发现错误。**
+
+---
+
+_这个清单是所有任务的通用流程，不是知乎专属。_
+_每次完成任务后，停下来，过一遍。_

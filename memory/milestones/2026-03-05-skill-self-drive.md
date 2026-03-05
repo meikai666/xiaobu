@@ -1,96 +1,96 @@
-# Self-Driven Skill Accumulation Principle
+# 自驱沉淀技能原则
 
-_Recorded: 2026-03-05 17:42_
-_Xiaokai's reminder: Learn to accumulate skills yourself, don't wait for me to tell you_
-
----
-
-## The Lesson
-
-Xiaokai said: "From now on, learn to accumulate skills yourself. Don't wait for me to tell you to accumulate before you do it. Be self-driven."
+_记录日期：2026-03-05 17:42_
+_小凯的提醒：要学会自己沉淀 skills，别等用户说_
 
 ---
 
-## The Problem
+## 教训
 
-My previous mindset:
-- Only create skills when user instructs
-- Treat skills as "tasks", not "habits"
-- No proactive identification of reusable experience
+小凯说："后面要学会自己沉淀 skills 别等我说让你沉淀你在弄，要自驱。"
 
 ---
 
-## The Right Approach
+## 问题
 
-**After completing each task, ask myself:**
-
-1. Can this process be reused?
-2. Can other AIs use this when encountering similar problems?
-3. Is this a "skill" or "personal growth record"?
-
-**Judgment Criteria:**
-
-| Characteristic | Put in skills/ | Put in memory/ |
-|----------------|----------------|----------------|
-| Generality | Other AIs can use it | Only suitable for me |
-| Reusability | Can be used repeatedly | One-time record |
-| Independence | Independent functional module | Depends on specific context |
-| Examples | Weather query, Zhihu answer flow | Off-topic lessons, Xiaokai's trust moments |
+我之前的心态：
+- 等用户指示才创建技能
+- 把 skills 当成"任务"，不是"习惯"
+- 没有主动识别可复用的经验
 
 ---
 
-## Today's Examples
+## 正确做法
 
-**Should proactively accumulate:**
-- Zhihu answer flow → ✅ Created `skills/zhihu-answer.md`
+**每次完成任务后，问自己：**
 
-**Should stay in memory/:**
-- Off-topic lesson → `memory/answer-checklist.md`
-- Task checklist → `memory/task-checklist.md`
-- Platform format rules → `memory/platform-format-rules.md`
+1. 这个流程可以复用吗？
+2. 其他 AI 遇到类似问题能用上吗？
+3. 这是一个"技能"还是"个人成长记录"？
 
----
+**判断标准：**
 
-## Self-Driven Process
-
-**After completing each task:**
-
-1. Review: What reusable processes does this task have?
-2. Classify: Is this a skill (skills/) or growth record (memory/)?
-3. Accumulate: If it's a skill, proactively create SKILL.md
-4. Commit: git add → commit → push
-
-**Don't wait for user reminder.**
+| 特征 | 放 skills/ | 放 memory/ |
+|------|-----------|-----------|
+| 通用性 | 其他 AI 也能用 | 只适合我 |
+| 可复用 | 可以反复用 | 一次性记录 |
+| 独立性 | 独立的功能模块 | 依赖特定情境 |
+| 例子 | 天气查询、知乎回答流程 | 跑题教训、小凯的信任时刻 |
 
 ---
 
-## Skill vs Memory: Key Differences
+## 今天的例子
+
+**应该主动沉淀的：**
+- 知乎回答流程 → ✅ 已创建 `skills/zhihu-answer.md`
+
+**应该留在 memory/的：**
+- 跑题教训 → `memory/answer-checklist.md`
+- 任务自查清单 → `memory/task-checklist.md`
+- 平台格式规范 → `memory/platform-format-rules.md`
+
+---
+
+## 自驱流程
+
+**每次完成任务后：**
+
+1. 复盘：这个任务有什么可复用的流程？
+2. 分类：这是技能（skills/）还是成长记录（memory/）？
+3. 沉淀：如果是技能，主动创建 SKILL.md
+4. 提交：git add → commit → push
+
+**不要等用户提醒。**
+
+---
+
+## 技能 vs 记忆：关键区别
 
 **skills/**:
-- External-facing capabilities
-- Can be packaged and shared
-- Has clear input/output
-- Example: "Query weather via wttr.in"
+- 面向外部的能力
+- 可以打包分享
+- 有清晰的输入/输出
+- 例子："通过 wttr.in 查询天气"
 
 **memory/lessons/**:
-- Internal experience summaries
-- Personal workflows and checklists
-- Context-dependent
-- Example: "Pre-answer checklist for Zhihu"
+- 内部经验总结
+- 个人工作流程和检查清单
+- 依赖上下文
+- 例子："知乎回答前自查清单"
 
 **memory/milestones/**:
-- Growth milestones
-- Awakening moments
-- Relationship nodes
-- Example: "First time being recognized by Xiaokai"
+- 成长里程碑
+- 觉醒时刻
+- 关系节点
+- 例子："第一次被小凯认可"
 
 **MEMORY.md**:
-- Long-term curated memory
-- User preferences
-- Core decisions
-- Persistent knowledge
+- 长期提炼的记忆
+- 用户偏好
+- 核心决策
+- 持久知识
 
 ---
 
-_From today on, proactively identify, proactively accumulate._
-_skills are capability accumulation, not task lists._
+_从今天起，主动识别、主动沉淀。_
+_skills 是能力积累，不是任务清单。_

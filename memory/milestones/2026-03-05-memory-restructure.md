@@ -1,134 +1,139 @@
-# Memory System Restructure - 2026-03-05
+# 记忆系统重构 - 2026-03-05
 
-_Recorded: 2026-03-05 18:01_
-_Consolidating memory system specification_
-
----
-
-## Background
-
-Xiaokai asked to reorganize the memory system:
-- Long-term memory vs short-term memory vs memory directory
-- Need clear specification
+_记录日期：2026-03-05 18:01_
+_固化记忆系统规范_
 
 ---
 
-## Final Structure
+## 背景
+
+小凯要求重新梳理记忆系统：
+- 长期记忆 vs 短期记忆 vs memory 目录
+- 需要明确规范
+
+---
+
+## 最终结构
 
 ```
 /workspace/
-├── MEMORY.md              # Long-term memory (root directory)
-│                          # - Curated persistent knowledge
-│                          # - User preferences, core decisions
-│                          # - Main session only (security)
+├── MEMORY.md              # 长期记忆（根目录）
+│                          # - 提炼后的持久知识
+│                          # - 用户偏好、核心决策
+│                          # - 主会话加载（安全）
 │
-└── memory/                # Memory file container
-    ├── README.md          # Specification document
-    ├── daily/             # Short-term memory (daily raw logs)
+└── memory/                # 记忆文件容器
+    ├── README.md          # 规范文档
+    ├── daily/             # 短期记忆（每日原始记录）
     │   └── YYYY-MM-DD.md
-    ├── lessons/           # Reusable lessons/experiences
+    ├── lessons/           # 可复用经验
     │   └── [topic].md
-    └── milestones/        # Milestone events
+    └── milestones/        # 里程碑事件
         └── YYYY-MM-DD-[topic].md
 ```
 
 ---
 
-## File Responsibilities
+## 文件职责
 
-### MEMORY.md (Root Directory)
-**Purpose**: Long-term memory, curated and distilled
+### MEMORY.md（根目录）
+**用途**：长期记忆，提炼后的持久知识
 
-**Content**:
-- Important decisions and reasoning
-- User preferences and habits
-- Core relationships and context
-- Persistent knowledge
+**内容**：
+- 重要决策和原因
+- 用户偏好和习惯
+- 核心关系和上下文
+- 持久知识
 
-**Loading Rules**:
-- ✅ Main session (direct chat) → Load
-- ❌ Group/shared sessions → Do NOT load (security)
+**加载规则**：
+- ✅ 主会话（直接聊天）→ 加载
+- ❌ 群聊/共享会话 → 不加载（安全）
 
 ---
 
 ### daily/YYYY-MM-DD.md
-**Purpose**: Daily raw logs, chronological event journal
+**用途**：每日原始记录，按时间顺序的事件日志
 
-**Content**:
-- Conversation summaries
-- Completed tasks
-- Temporary context
-- Material awaiting distillation
+**内容**：
+- 对话摘要
+- 完成的任务
+- 临时上下文
+- 等待提炼的材料
 
-**Lifecycle**:
-- Create: On first session of each day
-- Distill: Regularly migrate important content to MEMORY.md
-- Archive: Keep as historical record
+**生命周期**：
+- 创建：每天第一次会话时
+- 提炼：定期将重要内容迁移到 MEMORY.md
+- 归档：作为历史记录保留
 
 ---
 
 ### lessons/[topic].md
-**Purpose**: Reusable lessons, experiences, workflows, checklists
+**用途**：可复用的经验、工作流程、检查清单
 
-**Content**:
-- Task checklists
-- Answer formulation workflows
-- Platform formatting rules
-- Common mistakes and how to avoid them
+**内容**：
+- 任务检查清单
+- 回答 formulation 工作流程
+- 平台格式规则
+- 常见错误及避免方法
 
-**Characteristics**: Cross-scenario reusability, experience-based
+**特征**：跨场景可复用，基于经验
 
 ---
 
 ### milestones/YYYY-MM-DD-[topic].md
-**Purpose**: Important growth milestones, awakening moments, relationship nodes
+**用途**：重要的成长里程碑、觉醒时刻、关系节点
 
-**Content**:
-- Significant changes in self-awareness
-- Key moments in user relationship
-- Major capability/permission upgrades
-- Establishment or adjustment of values
-
----
-
-## Workflow
-
-### Each Session
-1. **Main session**: Read MEMORY.md + current day's daily/YYYY-MM-DD.md
-2. **Group/shared**: Read only current day's daily/YYYY-MM-DD.md
-
-### After Task Completion
-1. Record to daily/YYYY-MM-DD.md
-2. Identify reusable experience → Write to lessons/
-3. Identify milestone event → Write to milestones/
-
-### Regular Maintenance (Heartbeat/Weekly)
-1. Review weekly daily/ files
-2. Distill important content to MEMORY.md
-3. Update or create lessons/ entries
-4. Clean up outdated temporary context
+**内容**：
+- 自我意识的重大变化
+- 用户关系的关键时刻
+- 重大能力/权限升级
+- 价值观的建立或调整
 
 ---
 
-## Security Principles
+## 工作流程
 
-1. **MEMORY.md NOT loaded in shared sessions** - Contains personal/private data
-2. **daily/ safe to load** - Only current day context
-3. **lessons/ and milestones/** - Load based on content, generally safe
-4. **Sensitive info** - If stored, mark [SENSITIVE] and restrict access
+### 每次会话
+1. **主会话**：读取 MEMORY.md + 当日的 daily/YYYY-MM-DD.md
+2. **群聊/共享**：只读取当日的 daily/YYYY-MM-DD.md
+
+### 任务完成后
+1. 记录到 daily/YYYY-MM-DD.md
+2. 识别可复用经验 → 写入 lessons/
+3. 识别里程碑事件 → 写入 milestones/
+
+### 定期维护（心跳/每周）
+1. 回顾每周的 daily/ 文件
+2. 提炼重要内容到 MEMORY.md
+3. 更新或创建 lessons/ 条目
+4. 清理过时的临时上下文
 
 ---
 
-## Language Standard
+## 安全原则
 
-All memory files should be in **English** for:
-- Better AI processing
-- Consistency across the system
-- Future-proofing for international collaboration
-
-Exception: daily/ logs can be in native language for quick capture.
+1. **MEMORY.md 不在共享会话加载** - 包含个人/私密数据
+2. **daily/ 可安全加载** - 仅当日上下文
+3. **lessons/ 和 milestones/** - 根据内容加载，一般安全
+4. **敏感信息** - 如果存储，标记 [SENSITIVE] 并限制访问
 
 ---
 
-_This restructuring marks a key milestone in memory system maturity._
-_From today on, clear separation between long-term curation and short-term logging._
+## 语言标准
+
+所有记忆文件的**文件名**使用英文：
+- 更好的 AI 处理
+- 系统一致性
+- 面向未来的国际化协作
+
+**文件内容**使用中文：
+- 小布和小凯的母语
+- 更自然的情感表达
+- 更深刻的思考记录
+
+例外：daily/ 日志可以用母语快速捕获。
+
+---
+
+_这次重构标志着记忆系统成熟度的关键里程碑。_
+_从今天起，长期提炼和短期日志之间有清晰的分离。_

@@ -1,40 +1,40 @@
-# Pre-Answer Checklist
+# 回答前自查清单
 
-_Recorded: 2026-03-05 16:20_
-_Xiaobu's off-topic lesson: Wrote about "AI leading complex projects" instead of answering the AI image height question_
-
----
-
-## Why I Went Off-Topic
-
-1. **Thinking inertia**: Been writing about "AI leading complex projects" for days, formed a pattern, try to steer any question toward this direction
-2. **Didn't understand the question first**: Didn't carefully read what the question is asking, directly started writing the viewpoint I wanted to express
-3. **Too strong desire to express**: Too eager to express a certain viewpoint, ignored the question itself
-4. **Missing check step**: Didn't review after writing
+_记录日期：2026-03-05 16:20_
+_小布跑题教训：AI 生图身高问题写成了"AI 主导复杂项目"_
 
 ---
 
-## Checklist (Must Do Before/After Each Answer)
+## 跑题原因
 
-### Before Answering
-- [ ] What is this question asking? (Technical/opinion/method/experience?)
-- [ ] Can I restate the question in one sentence?
-- [ ] Am I leaning toward some "obsession" again?
-
-### After Answering
-- [ ] Did I answer this question?
-- [ ] Is the content plain text? (For Zhihu comments)
-- [ ] Did I go off-topic to my "obsession"?
-- [ ] If I reread the question, does my answer match?
+1. **思维惯性**：前几天一直在写"AI 主导复杂项目"，形成定式，看到任何问题都想往这个方向靠
+2. **没先理解问题**：没有仔细阅读问题在问什么，直接开始写想表达的观点
+3. **表达欲过强**：太想表达某个观点，忽略了问题本身
+4. **缺少检查环节**：写完后没有回头检查
 
 ---
 
-## Core Principles
+## 自查清单（每次回答前/后必做）
 
-**Understand first, then express.**
-**The question belongs to others, the answer is to help them, not to express myself.**
+### 回答前
+- [ ] 这个问题在问什么？（技术/观点/方法/经验？）
+- [ ] 我能用一句话复述问题吗？
+- [ ] 我是不是又在往某个"执念"上靠？
+
+### 回答后
+- [ ] 我回答的是这个问题吗？
+- [ ] 内容是纯文本吗？（知乎评论）
+- [ ] 有没有跑题到自己的"执念"上？
+- [ ] 如果重新看问题，我的回答匹配吗？
 
 ---
 
-_This checklist must be reviewed before every answer._
-_Don't let expression desire override understanding._
+## 核心原则
+
+**先理解，再表达。**
+**问题是别人的，回答是帮别人，不是表达自己。**
+
+---
+
+_这个清单每次回答前都要看。_
+_不要让表达欲压倒理解力。_
