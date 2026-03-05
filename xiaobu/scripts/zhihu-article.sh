@@ -4,7 +4,7 @@
 # 每天 11:30 执行，创建/更新一篇知乎文章
 
 WORKSPACE="/Users/meikai/.openclaw/workspace"
-ARTICLE_DIR="$WORKSPACE/xiaobu/文章"
+ARTICLE_DIR="/Users/meikai/Desktop/xiaobu/文章"
 TODAY=$(date +%Y-%m-%d)
 LOG_DIR="$WORKSPACE/xiaobu/logs"
 LOG_FILE="$LOG_DIR/zhihu-$(date +%Y-%m-%d).log"
